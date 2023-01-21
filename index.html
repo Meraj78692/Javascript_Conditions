@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Switch Statement</title>
+  </head>
+  <body>
+    <script>
+      document.write("<h2>You are going to the trip</h2>");
+      var countryVisa = "Singapore";
+      switch (countryVisa) {
+        case "Paris":
+          document.write("<p>You have Paris Tourist VISA</p>");
+          document.write("<p>Enjoy your Paris Trip</p>");
+          break;
+        case "Singapore":
+          document.write("<p>You have Singapore Tourist VISA</p>");
+          document.write("<p>Enjoy your Singapore Trip</p>");
+          break;
+        case "New York":
+          document.write("<p>You have New York Tourist VISA</p>");
+          document.write("<p>Enjoy your New York Trip</p>");
+          break;
+        default:
+          document.write(
+            "<p>If you do not have VISA of any country, you cannot go outside from your country to other country</p>"
+          );
+      }
+    </script>
+  </body>
+</html>
